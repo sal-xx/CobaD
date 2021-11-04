@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cek IMT"
+        android:layout_marginTop="110dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rafiki"/>
+
+    <EditText
+        android:id="@+id/brt"
+        android:background="@drawable/form"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan Berat"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <EditText
+        android:id="@+id/tgi"
+        android:background="@drawable/form"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan Tinggi"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RadioButton
+            android:text="Laki-laki"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"/>
+        <RadioButton
+            android:text="Perempuan"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/cek"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Cek IMT" />
+</LinearLayout>
